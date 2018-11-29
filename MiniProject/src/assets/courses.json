@@ -1,0 +1,31 @@
+[
+    {
+       
+        "courseName":"Angular Js 1.X",
+        "coursePrice":"400.00"
+
+    },
+    { 
+        "courseName":"Angular Js 2.X",
+        "coursePrice":"500.00"
+
+    },
+    {
+        
+        "courseName":"React Js",
+        "coursePrice":"600.00"
+
+    },
+    {
+       
+        "courseName":"Backbone Js",
+        "coursePrice":"700.00"
+
+    },
+    {
+        
+        "courseName":"JavaScript",
+        "coursePrice":"700.00"
+
+    }
+]

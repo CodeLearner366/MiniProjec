@@ -1,0 +1,70 @@
+<body>
+    <div *ngIf="courseArray.length > 0" id="courAvail">
+    
+      <div class="courAvail">
+        <br>
+        <h4> COURSES AVAILABLE</h4>
+        <ul *ngFor="let course of courseArray">
+          <li class="avail">{{course.courseName}}</li>
+        </ul>
+      </div>
+      <br />
+    <br />
+    <hr />
+    </div>
+    
+    
+    <div id="add" class="add">
+      <br>
+    <h5 class="header1">ADD COURSE</h5>
+    <br>
+    <div class="container1 hello" id="addcourse">
+      <div class="row">
+        <div class="form2">
+          <form id="form1" [formGroup]="myForm" (ngSubmit)="AddCourse()" >
+            <div class="form-group" >
+              <label class="control-label red"> COURSE NAME </label>
+              <input type="text" formControlName="courseName" class="form-control">
+            </div>
+            <div *ngIf="(!myForm.get('courseName').value) && (flag1 == false)">
+              <h4>CourseName is required</h4>
+            </div>
+            <div class="form-group">
+              <label class="control-label red"> COURSE DURATION </label>
+              <input type="text" formControlName="courseDuration" class="form-control">
+            </div>
+            <div *ngIf="(!myForm.get('courseDuration').value) && (flag1 == false)">
+              <h6> CourseDuration is required </h6>
+            </div>
+            <button type="submit" class="btn btn-primary">ADD COURSE</button>
+            <br/>
+          </form>
+      
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <hr>
+    <div id="course">
+    <div class="container" id="cour">
+      <div class="row">
+        <div class="col col-md-8 ">
+          <br>
+          <label class="control-label1 red" style="color:slateblue;font-weight:bold"> ENTER COURSE NAME: &nbsp; </label>
+          <input type="text" [(ngModel)]="this.courseName" />
+          <button class="btn btn-success" (click)="getDuration(this.courseName)">GET DURATION</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container2">
+      <div class="row">
+        <div class="col col-md-8 " *ngIf="flag == true">
+          <h4 class="dura"> {{cDuration}}</h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+  

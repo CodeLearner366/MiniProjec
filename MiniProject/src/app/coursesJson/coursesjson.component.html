@@ -1,0 +1,5 @@
+<div class="courjson">
+  <ul *ngFor="let k of jsonData">
+    <li class="data">{{k.courseName | uppercase}}  INR{{k.coursePrice | currency:'INR'}}</li>
+  </ul>
+</div>

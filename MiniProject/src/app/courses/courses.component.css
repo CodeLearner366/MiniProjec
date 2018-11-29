@@ -1,0 +1,95 @@
+
+.hello{
+    background-color: snow;
+}
+h4{
+    color: darkorchid;
+    margin-left: 8px;
+    background: url(/assets/.jpg);
+}
+
+#addcourse{
+background-color: thistle;
+}
+#add{
+    background: url(/assets/.jpg);
+    margin-bottom:30px;
+}
+#cour{
+ 
+    margin-left:25%;
+    
+}
+#course{
+    background: url(/assets/.jpg);
+}
+#courAvail{
+    background: url(/assets/.jpg);
+}
+#form1{
+    padding-bottom: 20px;
+    border-radius: 4px;
+}
+
+.header1{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.hr{
+    color: white !important;
+}
+.form2{
+    margin-left:10%;;
+    width: 80%;
+
+}
+
+.container1{
+    width:50%;
+    margin-left:25%;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px palevioletred;
+    box-shadow: -1px -2px 3px palevioletred;
+    margin-bottom: 50px;
+
+}
+.add{
+    margin-bottom: 20px;
+}
+.courAvail{
+    background: url(/assets/.jpg);
+    margin-bottom: 0px;
+
+}
+body{
+    background-color:rgb(196, 241, 159);
+}
+.form-control{
+    border-radius: 8px;
+
+
+}
+.form-control:focus{
+    box-shadow:1px 1px 1px red;
+ 
+    height: 50px;;
+    
+
+}
+input[type=text]
+{
+    color: firebrick;
+}
+.btn-success{
+    box-shadow: 1px 1px 1px solid green;
+}
+.dura{
+    color: orangered;
+    font-weight: bolder;
+}
+.avail{
+    color: orangered;
+    font-weight: bold;
+}

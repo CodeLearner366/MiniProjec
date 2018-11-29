@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: url(./assets/a.jpg);
+}
+h{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: salmon;
+    margin-left: 20px;
+}
